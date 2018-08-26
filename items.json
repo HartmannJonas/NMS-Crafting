@@ -1,0 +1,576 @@
+{
+    "items" : [
+        {
+            "name" : "Nitrogen",
+            "price": 20,
+            "ingredients" : [
+        
+            ]
+        },
+        {
+            "name" : "Radon",
+            "price" : 20,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Sulphurine",
+            "price" : 20,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Uranium",
+            "price" : 62,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Pyrite",
+            "price" : 62,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Ammonia",
+            "price" : 62,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Pure Ferrite",
+            "price" : 28,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Ionised Cobalt",
+            "price" : 401,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Condensed Carbon",
+            "price" : 24,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Mordite",
+            "price" : 40,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Fungal Mould",
+            "price" : 16,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Cactus Flesh",
+            "price" : 28,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Frost Crystal",
+            "price" : 12,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Solanium",
+            "price" : 70,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Star Bulb",
+            "price" : 32,
+            "ingredients" :[
+                
+            ]
+        },
+        {
+            "name" : "Acid",
+            "price" : 188000,
+            "ingredients" :[
+                {
+                    "name" :"Mordite",
+                    "count" : 25
+                },
+                {
+                    "name" : "Fungal Mould",
+                    "count": 600
+                }
+            ]
+        },
+        {
+            "name" : "Unstable Gel",
+            "price" : 50000,
+            "ingredients" :[
+                {
+                    "name": "Cactus Flesh",
+                    "count": 200
+                }
+            ]
+        },
+        {
+            "name" : "Thermic Condensate",
+            "price" : 50000,
+            "ingredients" :[
+                {
+                    "name" : "Sulphurine",
+                    "count": 250
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "count": 50
+                }
+            ]
+        },
+        {
+            "name" : "Enriched Carbon",
+            "price" : 50000,
+            "ingredients" :[
+                {
+                    "name": "Radon",
+                    "count": 250
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "count": 50
+                }
+            ]
+        },
+        {
+            "name" : "Nitrogen Salt",
+            "price" : 50000,
+            "ingredients" :[
+                {
+                    "name": "Nitrogen",
+                    "count": 250
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "count": 50
+                }
+            ]
+        },
+        {
+            "name" : "Organic Catalyst",
+            "price" : 320000,
+            "ingredients" :[
+                {
+                    "name": "Thermic Condensate",
+                    "count": 1
+                },
+                {
+                    "name": "Enriched Carbon",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name" : "Liquid Explosive",
+            "price" : 800500,
+            "ingredients" :[
+                {
+                    "name": "Acid",
+                    "count": 1
+                },
+                {
+                    "name": "Unstable Gel",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name" : "Fusion Accelerant",
+            "price" : 1500000,
+            "ingredients" :[
+                {
+                    "name": "Organic Catalyst",
+                    "count": 1
+                },
+                {
+                    "name": "Nitrogen Salt",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name" : "Portable Reactor",
+            "price" : 4200000,
+            "ingredients" :[
+                {
+                    "name": "Liquid Explosive",
+                    "count": 1
+                },
+                {
+                    "name": "Fusion Accelerant",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name" : "Heat Capacitor",
+            "price": 180000,
+            "ingredients":[
+                {
+                    "name": "Frost Crystal",
+                    "count": 100
+                },
+                {
+                    "name": "Solanium",
+                    "count": 200
+                }
+            ]
+        },
+        {
+            "name" : "Poly Fibre",
+            "price": 130000,
+            "ingredients":[
+                {
+                    "name": "Cactus Flesh",
+                    "count": 100
+                },
+                {
+                    "name": "Star Bulb",
+                    "count": 200
+                }
+            ]
+        },
+        {
+            "name" : "Semiconductor",
+            "price": 3200000,
+            "ingredients":[
+                {
+                    "name": "Thermic Condensate",
+                    "count": 1
+                },
+                {
+                    "name": "Nitrogen Salt",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name" : "Circuit Board",
+            "price": 916250,
+            "ingredients":[
+                {
+                    "name": "Heat Capacitor",
+                    "count": 1
+                },
+                {
+                    "name": "Poly Fibre",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name" : "Superconductor",
+            "price": 1500000,
+            "ingredients":[
+                {
+                    "name": "Semiconductor",
+                    "count": 1
+                },
+                {
+                    "name": "Enriched Carbon",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name" : "Quantum Processor",
+            "price": 4400000,
+            "ingredients":[
+                {
+                    "name": "Circuit Board",
+                    "count": 1
+                },
+                {
+                    "name": "Superconductor",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name" : "Lemmium",
+            "price": 25000,
+            "ingredients":[
+                {
+                    "name": "Uranium",
+                    "count": 50
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "count": 100
+                }
+            ]
+        },
+        {
+            "name" : "Herox",
+            "price": 25000,
+            "ingredients":[
+                {
+                    "name": "Ammonia",
+                    "count": 50
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "count": 100
+                }
+            ]
+        },
+        {
+            "name" : "Dirty Bronze",
+            "price": 25000,
+            "ingredients":[
+                {
+                    "name": "Pyrite",
+                    "count": 50
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "count": 100
+                }
+            ]
+        },
+        {
+            "name" : "Geodesite",
+            "price": 150000,
+            "ingredients":[
+                {
+                    "name": "Herox",
+                    "count": 1
+                },
+                {
+                    "name": "Lemmium",
+                    "count": 1   
+                },
+                {
+                    "name": "Dirty Bronze",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Paraffinium",
+            "price": 62,
+            "ingredients":[
+                {
+
+                }
+            ]
+        },
+        {
+            "name": "Phosphorous",
+            "price": 62,
+            "ingredients":[
+                
+            ]
+        },
+        {
+            "name": "Dioxite",
+            "price": 62,
+            "ingredients":[
+                
+            ]
+        },
+        {
+            "name": "Coprite",
+            "price": 30,
+            "ingredients":[
+                
+            ]
+        },
+        {
+            "name": "Gamma Root",
+            "price": 16,
+            "ingredients":[
+                
+            ]
+        },
+        {
+            "name": "Aronium",
+            "price": 25000,
+            "ingredients":[
+                {
+                    "name": "Paraffinium",
+                    "count": 50
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "count": 50
+                }
+            ]
+        },
+        {
+            "name": "Magno-Gold",
+            "price": 25000,
+            "ingredients":[
+                {
+                    "name": "Phosphorous",
+                    "count": 50
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "count": 50
+                }
+            ]
+        },
+        {
+            "name": "Grantine",
+            "price": 25000,
+            "ingredients":[
+                {
+                    "name": "Dioxite",
+                    "count": 50
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "count": 50
+                }
+            ]
+        },
+        {
+            "name": "Glass",
+            "price": 18000,
+            "ingredients":[
+                {
+                    "name": "Frost Crystal",
+                    "count": 250
+                }
+            ]
+        },
+        {
+            "name": "Lubricant",
+            "price": 160000,
+            "ingredients":[
+                {
+                    "name": "Coprite",
+                    "count": 50
+                },
+                {
+                    "name": "Gamma Root",
+                    "count": 400
+                }
+            ]
+        },
+        {
+            "name": "Hot Ice",
+            "price": 400000,
+            "ingredients":[
+                {
+                    "name": "Enriched Carbon",
+                    "count": 1
+                },
+                {
+                    "name": "Nitrogen Salt",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Cyro-Pump",
+            "price": 2000000,
+            "ingredients":[
+                {
+                    "name": "Hot Ice",
+                    "count": 1
+                },
+                {
+                    "name": "Thermic Condensate",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Living Glass",
+            "price": 700000,
+            "ingredients":[
+                {
+                    "name": "Lubricant",
+                    "count": 1
+                },
+                {
+                    "name": "Glass",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "Cyrogenic Chamber",
+            "price": 4800000,
+            "ingredients":[
+                {
+                    "name": "Living Glass",
+                    "count": 1
+                },
+                {
+                    "name": "Cyro-Pump",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Iridesite",
+            "price": 150000,
+            "ingredients":[
+                {
+                    "name": "Aronium",
+                    "count": 1
+                },
+                {
+                    "name": "Magno-Gold",
+                    "count": 1
+                },
+                {
+                    "name": "Grantine",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Stasis Device",
+            "price": 18000000,
+            "ingredients":[
+                {
+                    "name": "Quantum Processor",
+                    "count": 1
+                },
+                {
+                    "name": "Iridesite",
+                    "count": 1
+                },
+                {
+                    "name": "Cyrogenic Chamber",
+                    "count": 1
+                }
+            ]
+        }
+
+
+
+
+    ]
+    
+    
+}

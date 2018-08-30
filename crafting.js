@@ -9,8 +9,7 @@ $(document).ready(function () {
 
 
     $.ajax({
-        url: window.location.protocol + '//' + window.location.hostname + ':' + window.location.port
-            + "/items.json"
+        url: window.location.href + "/items.json"
     }).then(function (data) {
         console.log(data.items[0]);
         craftingItems = data.items;

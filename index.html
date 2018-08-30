@@ -13,16 +13,63 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
+
+  <style>
+    .autocomplete-suggestions {
+      border: 1px solid #999;
+      background: #FFF;
+      overflow: auto;
+    }
+
+    .autocomplete-suggestion {
+      padding: 2px 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      color: #000;
+    }
+
+    .autocomplete-selected {
+      background: #F0F0F0;
+    }
+
+    .autocomplete-suggestions strong {
+      font-weight: normal;
+      color: #3399FF;
+    }
+
+    .autocomplete-group {
+      padding: 2px 5px;
+    }
+
+    .autocomplete-group strong {
+      display: block;
+      border-bottom: 1px solid #000;
+    }
+
+    .itemLink {
+      cursor: pointer;
+    }
+
+    #templateCraftingRow {
+      display: none;
+    }
+
+    #templateShoppingRow {
+      display: none;
+    }
+  </style>
   <title>Crafting Guide</title>
 </head>
 
 <body>
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Crafting Guide</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
+
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> -->
 
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto"></ul>
@@ -31,13 +78,16 @@
 
 
 
+
+
   <div class="d-flex justify-content-center">
-    <div class="d-flex flex-column mr-4 ml-4">
-      <div class="p-3">
+    <div class="d-flex flex-column mr-4 ml-4 align-items-center">
+      <div class="p-3" style="max-width: 30rem;">
         <div class="input-group">
-          <input class="form-control form-control-lg" type="text" placeholder="search" id="inputLarge">
+          <input class="form-control form-control-lg" type="text" placeholder="search" id="autocomplete" name="name">
+
           <div class="input-group-append">
-            <button class="btn btn-secondary" type="submit">
+            <button class="btn btn-secondary" type="submit" id="searchBtn">
               <i class="fas fa-search"></i>
             </button>
           </div>
@@ -45,15 +95,15 @@
       </div>
       <div class="d-flex flex-column flex-lg-row ">
         <div class="p-1">
-          <div class="card text-white bg-secondary mb-2s container" style="max-width: 30rem; max-height: 20rem">
+          <div class="card text-white bg-secondary mb-2s container" style="max-width: 30rem; max-height: 20rem; display: none" , id="mainCard">
             <div class="row justify-content-between">
               <div class="col-7 p-0 border border-white">
                 <div class="card-body pr-0">
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item pl-0 pr-0">
-                      <h5>Portable Reactor</h5>
+                      <h5 id="itemName"></h5>
                     </li>
-                    <li class="list-group-item pl-0 pr-0">Price: 4.200.000 Units</li>
+                    <li class="list-group-item pl-0 pr-0" id="priceTag"></li>
                   </ul>
                 </div>
               </div>
@@ -67,22 +117,16 @@
         </div>
 
         <div class="p-1">
-          <div class="card text-white bg-secondary mb-2" style="max-width: 30rem;">
+          <div class="card text-white bg-secondary mb-2" style="max-width: 30rem; display: none;" id="craftingCard">
             <div class="card-header">Crafted from:</div>
             <div class="card-body p-1">
               <table class="table table-hover mb-0">
-                <tbody>
-                  <tr class="table-active">
-                    <td><img src="resources/liquid_explosive.png" class="img-fluid" style="max-height: 40px"></td>
-                    <td>Liquid Explosive</td>
-                    <td>800.500 Units</td>
-                    <td>x1</td>
-                  </tr>
-                  <tr class="table-active">
-                    <td><img src="resources/fusion_accelerant.png" class="img-fluid" style="max-height: 40px"></td>
-                    <td>Fusion Accelerant</td>
-                    <td>1.500.000 Units</td>
-                    <td>x1</td>
+                <tbody id="craftingTable">
+                  <tr data-href='Fusion Accelerant' id="templateCraftingRow">
+                    <td><img src="resources/fusion_accelerant.png" class="img-fluid" style="max-height: 40px" id="ingImg"></td>
+                    <td id="ingName">Fusion Accelerant</td>
+                    <td id="ingPrice">1.500.000 Units</td>
+                    <td id="ingQuantity">x1</td>
                   </tr>
                 </tbody>
               </table>
@@ -91,12 +135,12 @@
           </div>
         </div>
         <div class="p-1">
-          <div class="card text-white bg-secondary mb-2" style="max-width: 30rem;">
+          <div class="card text-white bg-secondary mb-2" style="max-width: 30rem; display: none;" id="shoppingListCard">
             <div class="card-header">
               <div class="row">
-                <div class="col-8"><span class="align-middle">Basic Resources for:</span></div>
+                <div class="col-8"><span class="align-middle">Shopping List for:</span></div>
                 <div class="input-group col-4">
-                  <input class="form-control form-control-sm" type="text" placeholder="Amount" id="inputAmount">
+                  <input class="form-control form-control-sm" type="number" min="1" placeholder="Amount" id="inputAmount">
                   <div class="input-group-append">
                   </div>
                 </div>
@@ -104,28 +148,23 @@
 
             </div>
             <div class="card-body p-1">
-                <table class="table table-hover mb-0">
-                    <tbody>
-                      <tr class="table-active">
-                        <td><img src="resources/mordite.png" class="img-fluid" style="max-height: 40px"></td>
-                        <td>Mordite</td>
-                        <td>40 Units</td>
-                        <td>x50</td>
-                      </tr>
-                      <tr class="table-active">
-                        <td><img src="resources/fungal_mould.png" class="img-fluid" style="max-height: 40px"></td>
-                        <td>Fungal Mould</td>
-                        <td>16 Units</td>
-                        <td>x1200</td>
-                      </tr>
-                      <tr class="table-active">
-                          <td><img src="resources/cactus_flesh.png" class="img-fluid" style="max-height: 40px"></td>
-                          <td>Cactus Flesh</td>
-                          <td>28 Units</td>
-                          <td>x400</td>
-                        </tr>
-                    </tbody>
-                  </table>
+              <table class="table table-hover mb-0">
+                <tbody id="shoppingTable">
+                  <tr data-href="Cactus flesh" id="templateShoppingRow">
+                    <td><img src="resources/cactus_flesh.png" class="img-fluid" style="max-height: 40px" id="shopImg"></td>
+                    <td class="shopName">Cactus Flesh</td>
+                    <td class="shopPrice">28 Units</td>
+                    <td class="shopCount">x400</td>
+                    <td class="shopItemTotal">999999</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-end" id="shopTotal">
+                
+              </div>
+
             </div>
           </div>
         </div>
@@ -143,12 +182,15 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.9/jquery.autocomplete.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script src="crafting.js"></script>
+
 </body>
 
 </html>

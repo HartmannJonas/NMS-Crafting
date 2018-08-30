@@ -1,7 +1,8 @@
 var names;
 var craftingItems;
-var currentIngredientShown;
+var currentIngredientShown = null;
 var recursionCount = 0;
+var stack = new Array();
 
 $(document).ready(function () {
     console.log("Hi");
@@ -44,6 +45,9 @@ $(document).ready(function () {
             }
         });
 
+        var backButton = document.getElementById("backButton");
+        backButton.onclick = goBack;
+
         /* document.getElementsByClassName('itemLink').onclick = function(){
             name = this.textContent;
             showItem(name);
@@ -69,10 +73,22 @@ $(document).ready(function () {
 
 });
 
-function showItem(name) {
-    if (currentIngredientShown == name) {
+function showItem(name, back) {
+    if ((currentIngredientShown == name && back == null) || name == "") {
         return;
     }
+    console.log(name);
+
+    if (back == null) {
+        stack.push(currentIngredientShown);
+        if (stack.length > 1) {
+            console.log("show back button");
+            $('#backButtonIcon').fadeIn(100);
+            $('#backButton').removeAttr("disabled");
+
+        }
+    }
+
 
 
     currentIngredientShown = name;
@@ -229,4 +245,15 @@ function addToShoppingList(pair, shoppingList) {
         }
     }
     shoppingList.push(pair);
+}
+
+function goBack() {
+    if (stack.length > 1) {
+        showItem(stack.pop(), "back");
+    }
+
+    if (stack.length == 1){
+        $('#backButtonIcon').fadeOut(100);
+        $('#backButton').attr("disabled", "");
+    }
 }

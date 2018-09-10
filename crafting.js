@@ -103,7 +103,7 @@ function showItem(name, back) {
         document.getElementById('itemName').textContent = name;
         document.getElementById('priceTag').textContent = "Price: " + item.price.toLocaleString() + " Units";
 
-        var path = "/resources/Images/" + name.replace(/\s/g, '') + ".png";
+        var path = "resources/Images/" + name.replace(/\s/g, '') + ".png";
         document.getElementById("itemImg").setAttribute("src", path);
 
         $('#mainCard').fadeIn();
@@ -123,7 +123,7 @@ function showItem(name, back) {
                 $newRow.find('#ingPrice').text(getItemByName(ing.name).price.toLocaleString() + " Units");
                 $newRow.attr("id", "ing");
 
-                var path = "/resources/Images/" + ing.name.replace(/\s/g, '') + ".png";
+                var path = "resources/Images/" + ing.name.replace(/\s/g, '') + ".png";
                 $newRow.find(".img-fluid").attr("src", path);
                 $newRow.attr("data-href", ing.name);
                 $newRow.find('#ingQuantity').text("x" + ing.count);
@@ -155,7 +155,7 @@ function showItem(name, back) {
                 $newShoppingRow.removeAttr("id");
                 $newShoppingRow.attr("class", "table-active itemLink");
 
-                var path = "/resources/Images/" + sList[i].name.replace(/\s/g, '') + ".png";
+                var path = "resources/Images/" + sList[i].name.replace(/\s/g, '') + ".png";
                 $newShoppingRow.find(".img-fluid").attr("src", path);
 
                 var itemTotal = getItemByName(sList[i].name).price * sList[i].quantity;
@@ -212,7 +212,7 @@ function showItem(name, back) {
                 $newCraftToRow.attr("class", "table-active itemLink");
 
 
-                var path = "/resources/Images/" + itemToCraftTo.replace(/\s/g, '') + ".png";
+                var path = "resources/Images/" + itemToCraftTo.replace(/\s/g, '') + ".png";
                 $newCraftToRow.find(".img-fluid").attr("src", path);
 
                 $('#craftToTable').append($newCraftToRow);

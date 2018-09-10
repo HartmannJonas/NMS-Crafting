@@ -5,22 +5,20 @@ var recursionCount = 0;
 var stack = new Array();
 
 $(document).ready(function () {
-    console.log("Hi");
 
 
 
     $.ajax({
         url: window.location.href + "/items.json"
     }).then(function (data) {
-        console.log(data.items[0]);
+
         craftingItems = data.items;
         names = new Array();
+        console.log(names);
         for (i = 0; i < data.items.length; i++) {
-            names.push({
-                "value": data.items[i].name,
-                "data": i
-            });
+            names.push(data.items[i].name);
         }
+        //names.sort();
         $('#autocomplete').autocomplete({
             lookup: names,
             onSelect: function (suggestion) {
@@ -77,12 +75,12 @@ function showItem(name, back) {
     if ((currentIngredientShown == name && back == null) || name == "") {
         return;
     }
-    console.log(name);
+
 
     if (back == null) {
         stack.push(currentIngredientShown);
         if (stack.length > 1) {
-            console.log("show back button");
+
             $('#backButtonIcon').fadeIn(100);
             $('#backButton').removeAttr("disabled");
 
@@ -104,6 +102,10 @@ function showItem(name, back) {
     $('#mainCard').fadeOut(400, function () {
         document.getElementById('itemName').textContent = name;
         document.getElementById('priceTag').textContent = "Price: " + item.price.toLocaleString() + " Units";
+
+        var path = "/resources/images/" + name.replace(/\s/g, '') + ".png";
+        document.getElementById("itemImg").setAttribute("src", path);
+
         $('#mainCard').fadeIn();
     });
 
@@ -120,6 +122,9 @@ function showItem(name, back) {
                 $newRow.find('#ingName').text(ing.name);
                 $newRow.find('#ingPrice').text(getItemByName(ing.name).price.toLocaleString() + " Units");
                 $newRow.attr("id", "ing");
+
+                var path = "/resources/images/" + ing.name.replace(/\s/g, '') + ".png";
+                $newRow.find(".img-fluid").attr("src", path);
                 $newRow.attr("data-href", ing.name);
                 $newRow.find('#ingQuantity').text("x" + ing.count);
 
@@ -138,7 +143,6 @@ function showItem(name, back) {
     $('#shoppingListCard').fadeOut(400, function () {
         var sList = new Array();
         getShoppingList(name, 1, sList, function () {
-            console.log(sList);
             var i;
             var total = 0;
             for (i = 0; i < sList.length; i++) {
@@ -150,6 +154,10 @@ function showItem(name, back) {
                 $newShoppingRow.attr('data-href', sList[i].name);
                 $newShoppingRow.removeAttr("id");
                 $newShoppingRow.attr("class", "table-active itemLink");
+
+                var path = "/resources/images/" + sList[i].name.replace(/\s/g, '') + ".png";
+                $newShoppingRow.find(".img-fluid").attr("src", path);
+
                 var itemTotal = getItemByName(sList[i].name).price * sList[i].quantity;
                 total += itemTotal;
                 $newShoppingRow.find('.shopItemTotal').text(itemTotal.toLocaleString() + " Units");
@@ -162,7 +170,6 @@ function showItem(name, back) {
             inputAmount = document.getElementById("inputAmount");
             inputAmount.value = 1;
             inputAmount.addEventListener("change", function () {
-                console.log("amount changed");
                 $('.shopCount').each(function (i, obj) {
                     var count;
                     count = obj.getAttribute('data-count');
@@ -179,7 +186,6 @@ function showItem(name, back) {
                 })
                 var totalLabel = document.getElementById("shopTotal");
                 totalLabel.innerHTML = "Total: " + total.toLocaleString() + " Units";
-                console.log(total);
             });
 
             $('#shoppingListCard').fadeIn(400, function () {
@@ -189,6 +195,38 @@ function showItem(name, back) {
                 });
             });
         });
+
+
+
+    });
+
+    $('#craftingToCard').fadeOut(400, function () {
+        var craftToList = new Array();
+        craftToList = getCraftToList(name, craftToList, function () {
+            craftToList.forEach(function (itemToCraftTo) {
+                console.log(itemToCraftTo);
+                $newCraftToRow = $('#templateCraftingToRow').clone();
+                $newCraftToRow.attr('data-href', itemToCraftTo);
+                $newCraftToRow.removeAttr('id');
+                $newCraftToRow.find('.Name').text(itemToCraftTo);
+                $newCraftToRow.attr("class", "table-active itemLink");
+
+
+                var path = "/resources/images/" + itemToCraftTo.replace(/\s/g, '') + ".png";
+                $newCraftToRow.find(".img-fluid").attr("src", path);
+
+                $('#craftToTable').append($newCraftToRow);
+            });
+            if (craftToList.length > 0) {
+                $('#craftingToCard').fadeIn(400, function () {
+                    $(".itemLink").click(function () {
+                        var name = $(this).data("href");
+                        showItem(name);
+                    });
+                });
+            }
+        });
+
 
 
 
@@ -252,8 +290,25 @@ function goBack() {
         showItem(stack.pop(), "back");
     }
 
-    if (stack.length == 1){
+    if (stack.length == 1) {
         $('#backButtonIcon').fadeOut(100);
         $('#backButton').attr("disabled", "");
+    }
+}
+
+function getCraftToList(itemName, list, callback) {
+    craftingItems.forEach(function (element) {
+        element.ingredients.forEach(function (ingriedient) {
+            if (ingriedient.name == itemName) {
+                list.push(element.name);
+
+                return;
+            }
+        });
+    });
+
+
+    if (callback) {
+        callback();
     }
 }

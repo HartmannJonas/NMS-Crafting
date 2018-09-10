@@ -347,7 +347,7 @@
             "ingredients": []
         },
         {
-            "name": "Phosphorous",
+            "name": "Phosphorus",
             "price": 62,
             "ingredients": []
         },
@@ -385,7 +385,7 @@
             "price": 25000,
             "ingredients": [
                 {
-                    "name": "Phosphorous",
+                    "name": "Phosphorus",
                     "count": 50
                 },
                 {
@@ -447,7 +447,7 @@
             ]
         },
         {
-            "name": "Cyro-Pump",
+            "name": "Cryo-Pump",
             "price": 1500000,
             "ingredients": [
                 {
@@ -475,7 +475,7 @@
             ]
         },
         {
-            "name": "Cyrogenic Chamber",
+            "name": "Cryogenic Chamber",
             "price": 3800000,
             "ingredients": [
                 {
@@ -483,7 +483,7 @@
                     "count": 1
                 },
                 {
-                    "name": "Cyro-Pump",
+                    "name": "Cryo-Pump",
                     "count": 1
                 }
             ]
@@ -519,7 +519,7 @@
                     "count": 1
                 },
                 {
-                    "name": "Cyrogenic Chamber",
+                    "name": "Cryogenic Chamber",
                     "count": 1
                 }
             ]
@@ -668,7 +668,7 @@
         },
         {
             "name": "Emeril",
-            "price": null,
+            "price": 348,
             "ingredients": []
         },
         {
@@ -912,7 +912,7 @@
         },
         {
             "name": "Cobalt",
-            "price": null,
+            "price": 198,
             "ingredients": []
         },
         {
@@ -931,7 +931,7 @@
         },
         {
             "name": "Quad Servo",
-            "price": null,
+            "price": 20000,
             "ingredients": []
         },
         {
@@ -1025,7 +1025,7 @@
         },
         {
             "name": "Walker Brain",
-            "price": null,
+            "price": 35000,
             "ingredients": []
         },
         {
@@ -1067,6 +1067,25 @@
                 {
                     "name": "Carbon",
                     "count": 20
+                }
+            ]
+        },
+        {
+            "name": "Cadmium",
+            "price": 234,
+            "ingredients": []
+        },
+        {
+            "name": "AtlasPass v2",
+            "price": 1856,
+            "ingredients": [
+                {
+                    "name": "Cadmium",
+                    "count": 200
+                },
+                {
+                    "name": "Microprocessor",
+                    "count": 1
                 }
             ]
         }

@@ -99,6 +99,10 @@ function showItem(name, back) {
     }
     document.getElementById('autocomplete').value = "";
 
+    $('#craftingCard').fadeOut(400);
+    $('#shoppingListCard').fadeOut(400);
+    $('#craftingToCard').fadeOut(400);
+
     $('#mainCard').fadeOut(400, function () {
         document.getElementById('itemName').textContent = name;
         document.getElementById('priceTag').textContent = "Price: " + item.price.toLocaleString() + " Units";
@@ -107,10 +111,9 @@ function showItem(name, back) {
         document.getElementById("itemImg").setAttribute("src", path);
 
         $('#mainCard').fadeIn();
-    });
 
-    ingLen = item.ingredients.length;
-    $('#craftingCard').fadeOut(400, function () {
+        ingLen = item.ingredients.length;
+        
         $('.table-active').remove();
         var tableContent = "";
         if (ingLen > 0) {
@@ -138,9 +141,8 @@ function showItem(name, back) {
                 });
             });
         }
-    });
 
-    $('#shoppingListCard').fadeOut(400, function () {
+
         var sList = new Array();
         getShoppingList(name, 1, sList, function () {
             var i;
@@ -198,25 +200,25 @@ function showItem(name, back) {
 
 
 
-    });
-
-    $('#craftingToCard').fadeOut(400, function () {
         var craftToList = new Array();
         craftToList = getCraftToList(name, craftToList, function () {
-            craftToList.forEach(function (itemToCraftTo) {
-                console.log(itemToCraftTo);
+            
+            var i;
+            for(i = 0; i<craftToList.length; i++){
+                console.log(craftToList[i]);
                 $newCraftToRow = $('#templateCraftingToRow').clone();
-                $newCraftToRow.attr('data-href', itemToCraftTo);
+                $newCraftToRow.attr('data-href', craftToList[i]);
                 $newCraftToRow.removeAttr('id');
-                $newCraftToRow.find('.Name').text(itemToCraftTo);
+                $newCraftToRow.find('.Name').text(craftToList[i]);
                 $newCraftToRow.attr("class", "table-active itemLink");
 
 
-                var path = "resources/Images/" + itemToCraftTo.replace(/\s/g, '') + ".png";
+                var path = "resources/Images/" + craftToList[i].replace(/\s/g, '') + ".png";
                 $newCraftToRow.find(".img-fluid").attr("src", path);
 
                 $('#craftToTable').append($newCraftToRow);
-            });
+                console.log($newCraftToRow);
+            }
             if (craftToList.length > 0) {
                 $('#craftingToCard').fadeIn(400, function () {
                     $(".itemLink").click(function () {
@@ -228,9 +230,9 @@ function showItem(name, back) {
         });
 
 
-
-
     });
+
+    
 
 
 }

@@ -6,7 +6,7 @@ var stack = new Array();
 
 $(document).ready(function () {
 
-
+    console.log("Grah!");
 
     $.ajax({
         url: window.location.href + "/items.json"
@@ -14,7 +14,6 @@ $(document).ready(function () {
 
         craftingItems = data.items;
         names = new Array();
-        console.log(names);
         for (i = 0; i < data.items.length; i++) {
             names.push(data.items[i].name);
         }
@@ -205,7 +204,6 @@ function showItem(name, back) {
             
             var i;
             for(i = 0; i<craftToList.length; i++){
-                console.log(craftToList[i]);
                 $newCraftToRow = $('#templateCraftingToRow').clone();
                 $newCraftToRow.attr('data-href', craftToList[i]);
                 $newCraftToRow.removeAttr('id');
@@ -217,7 +215,6 @@ function showItem(name, back) {
                 $newCraftToRow.find(".img-fluid").attr("src", path);
 
                 $('#craftToTable').append($newCraftToRow);
-                console.log($newCraftToRow);
             }
             if (craftToList.length > 0) {
                 $('#craftingToCard').fadeIn(400, function () {

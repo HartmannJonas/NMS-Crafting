@@ -1,0 +1,5411 @@
+{
+    "recipes": [
+        {
+            "id": "1",
+            "name": "Gold",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Alchemical Construction",
+            "ingriedients": [
+                {
+                    "name": "Hexite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Glass",
+            "amount": "1",
+            "secPerOp": "60",
+            "processName": "Extreme Polishing",
+            "ingriedients": [
+                {
+                    "name": "Silver",
+                    "amount": "100"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Pyrite",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Metal Restructuring",
+            "ingriedients": [
+                {
+                    "name": "Gold",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Nanite Clusters",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Reality Warping",
+            "ingriedients": [
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Nanite Clusters",
+            "amount": "1",
+            "secPerOp": "0.3",
+            "processName": "Reality Filtering",
+            "ingriedients": [
+                {
+                    "name": "Pugneum",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Coprite",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Assisted Decomposition",
+            "ingriedients": [
+                {
+                    "name": "Mordite",
+                    "amount": "3"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Carbon",
+            "amount": "1",
+            "secPerOp": "0.2",
+            "processName": "Inefficient Burn",
+            "ingriedients": [
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Di-hydrogen Jelly",
+            "amount": "1",
+            "secPerOp": "120",
+            "processName": "Condense Di-hydrogen",
+            "ingriedients": [
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "30"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Condensed Carbon",
+            "amount": "150",
+            "secPerOp": "2",
+            "processName": "Carbon Melting",
+            "ingriedients": [
+                {
+                    "name": "Carbon Crystal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": "Pure Ferrite",
+            "amount": "150",
+            "secPerOp": "2",
+            "processName": "Rare Metal Detoxification",
+            "ingriedients": [
+                {
+                    "name": "Rare Metal Element",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Ionised Cobalt",
+            "amount": "150",
+            "secPerOp": "2",
+            "processName": "Cobalt Cracking",
+            "ingriedients": [
+                {
+                    "name": "TetraCobalt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Chlorine",
+            "amount": "150",
+            "secPerOp": "2",
+            "processName": "Chloride De-latticing",
+            "ingriedients": [
+                {
+                    "name": "Chloride Lattice",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "name": "Sodium Nitrate",
+            "amount": "150",
+            "secPerOp": "2",
+            "processName": "Sodium Stabilisation",
+            "ingriedients": [
+                {
+                    "name": "Destablised Sodium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "name": "Oxygen",
+            "amount": "150",
+            "secPerOp": "2",
+            "processName": "Oxygen Decompression",
+            "ingriedients": [
+                {
+                    "name": "Superoxide Crystal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "name": "Di-hydrogen",
+            "amount": "50",
+            "secPerOp": "1",
+            "processName": "Di-hydrogen Cycling",
+            "ingriedients": [
+                {
+                    "name": "Di-hydrogen Jelly",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "name": "Ionised Cobalt",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Ionise Mineral",
+            "ingriedients": [
+                {
+                    "name": "Cobalt",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "name": "Cobalt",
+            "amount": "2",
+            "secPerOp": "0.3",
+            "processName": "Deionise Mineral",
+            "ingriedients": [
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "name": "Carbon",
+            "amount": "2",
+            "secPerOp": "0.3",
+            "processName": "Release Carbon",
+            "ingriedients": [
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "name": "Condensed Carbon",
+            "amount": "1",
+            "secPerOp": "0.45",
+            "processName": "Condense Carbon",
+            "ingriedients": [
+                {
+                    "name": "Carbon",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "name": "Sodium Nitrate",
+            "amount": "1",
+            "secPerOp": "1",
+            "processName": "Process Sodium",
+            "ingriedients": [
+                {
+                    "name": "Sodium",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "name": "Sodium",
+            "amount": "2",
+            "secPerOp": "0.6",
+            "processName": "Free Sodium",
+            "ingriedients": [
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "name": "Pure Ferrite",
+            "amount": "1",
+            "secPerOp": "0.3",
+            "processName": "Extract Metallic Elements",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "name": "Magnetised Ferrite",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Magnetise Metal",
+            "ingriedients": [
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "name": "Pure Ferrite",
+            "amount": "2",
+            "secPerOp": "0.4",
+            "processName": "Demagnetise Metal",
+            "ingriedients": [
+                {
+                    "name": "Magnetised Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "name": "Chromatic Metal",
+            "amount": "1",
+            "secPerOp": "0.7",
+            "processName": "Extract Chromatic Material",
+            "ingriedients": [
+                {
+                    "name": "Cadmium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "name": "Chromatic Metal",
+            "amount": "4",
+            "secPerOp": "0.25",
+            "processName": "Extract Chromatic Material",
+            "ingriedients": [
+                {
+                    "name": "Indium",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "name": "Chromatic Metal",
+            "amount": "3",
+            "secPerOp": "0.4",
+            "processName": "Extract Chromatic Material",
+            "ingriedients": [
+                {
+                    "name": "Emeril",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "name": "Chromatic Metal",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Extract Chromatic Material",
+            "ingriedients": [
+                {
+                    "name": "Copper",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "name": "Chromatic Metal",
+            "amount": "2",
+            "secPerOp": "0.5",
+            "processName": "Extract Chromatic Material",
+            "ingriedients": [
+                {
+                    "name": "Activated Cadmium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "name": "Chromatic Metal",
+            "amount": "4",
+            "secPerOp": "0.3",
+            "processName": "Extract Chromatic Material",
+            "ingriedients": [
+                {
+                    "name": "Activated Indium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "name": "Chromatic Metal",
+            "amount": "3",
+            "secPerOp": "0.4",
+            "processName": "Extract Chromatic Material",
+            "ingriedients": [
+                {
+                    "name": "Activated Emeril",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "name": "Chromatic Metal",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Extract Chromatic Material",
+            "ingriedients": [
+                {
+                    "name": "Activated Copper",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "name": "Ferrite Dust",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Ferrite Dust extraction",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "name": "Ferrite Dust",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Ferrite Dust extraction",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "name": "Ferrite Dust",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Ferrite Dust extraction",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "name": "Ferrite Dust",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Ferrite Dust extraction",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "name": "Ferrite Dust",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Ferrite Dust extraction",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "name": "Ferrite Dust",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Ferrite Dust extraction",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "name": "Chlorine",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Concentrate Salt",
+            "ingriedients": [
+                {
+                    "name": "Salt",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "name": "Salt",
+            "amount": "2",
+            "secPerOp": "0.6",
+            "processName": "Salt Production",
+            "ingriedients": [
+                {
+                    "name": "Chlorine",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "name": "Radon",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Gas Transfer",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "3"
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "name": "Nitrogen",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Gas Transfer",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "3"
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "name": "Sulphurine",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Gas Transfer",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "3"
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "name": "Viscous Fluid",
+            "amount": "1",
+            "secPerOp": "1.5",
+            "processName": "Recyle Waste Materials",
+            "ingriedients": [
+                {
+                    "name": "Residual Goop",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "name": "Nanite Clusters",
+            "amount": "1",
+            "secPerOp": "1.5",
+            "processName": "Recyle Waste Materials",
+            "ingriedients": [
+                {
+                    "name": "Runaway Mould",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "name": "Ferrite Dust",
+            "amount": "1",
+            "secPerOp": "1.5",
+            "processName": "Recyle Waste Materials",
+            "ingriedients": [
+                {
+                    "name": "Rusted Metal",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "name": "Runaway Mould",
+            "amount": "1",
+            "secPerOp": "1.5",
+            "processName": "Recyle Waste Materials",
+            "ingriedients": [
+                {
+                    "name": "Living Slime",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "name": "Living Slime",
+            "amount": "1",
+            "secPerOp": "1.5",
+            "processName": "Recyle Waste Materials",
+            "ingriedients": [
+                {
+                    "name": "Viscous Fluid",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "name": "Di-hydrogen",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Tritium Cycling",
+            "ingriedients": [
+                {
+                    "name": "Tritium",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "name": "Carbon",
+            "amount": "2",
+            "secPerOp": "0.3",
+            "processName": "Burn Plantlife",
+            "ingriedients": [
+                {
+                    "name": "Fungal Mould",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "name": "Carbon",
+            "amount": "2",
+            "secPerOp": "0.3",
+            "processName": "Burn Plantlife",
+            "ingriedients": [
+                {
+                    "name": "Frost Crystal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "name": "Carbon",
+            "amount": "2",
+            "secPerOp": "0.3",
+            "processName": "Burn Plantlife",
+            "ingriedients": [
+                {
+                    "name": "Gamma Root",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "name": "Carbon",
+            "amount": "2",
+            "secPerOp": "0.3",
+            "processName": "Burn Plantlife",
+            "ingriedients": [
+                {
+                    "name": "Cactus Flesh",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "name": "Carbon",
+            "amount": "2",
+            "secPerOp": "0.3",
+            "processName": "Burn Plantlife",
+            "ingriedients": [
+                {
+                    "name": "Solanium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "name": "Carbon",
+            "amount": "2",
+            "secPerOp": "0.3",
+            "processName": "Burn Plantlife",
+            "ingriedients": [
+                {
+                    "name": "Star Bulb",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "56",
+            "name": "Sodium",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Extract Organic Sodium",
+            "ingriedients": [
+                {
+                    "name": "Marrow Bulb",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "57",
+            "name": "Oxygen",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Extract Micro-bubbles",
+            "ingriedients": [
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "58",
+            "name": "Mordite",
+            "amount": "2",
+            "secPerOp": "1.8",
+            "processName": "Organic Reassembly",
+            "ingriedients": [
+                {
+                    "name": "Coprite",
+                    "amount": "3"
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "name": "Silver",
+            "amount": "250",
+            "secPerOp": "3",
+            "processName": "Extreme Alloy Separation",
+            "ingriedients": [
+                {
+                    "name": "Aronium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "name": "Silver",
+            "amount": "250",
+            "secPerOp": "3",
+            "processName": "Extreme Alloy Separation",
+            "ingriedients": [
+                {
+                    "name": "Dirty Bronze",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "61",
+            "name": "Silver",
+            "amount": "250",
+            "secPerOp": "2.5",
+            "processName": "Extreme Alloy Separation",
+            "ingriedients": [
+                {
+                    "name": "Herox",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "62",
+            "name": "Gold",
+            "amount": "125",
+            "secPerOp": "3",
+            "processName": "Extreme Alloy Separation",
+            "ingriedients": [
+                {
+                    "name": "Lemmium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "63",
+            "name": "Gold",
+            "amount": "125",
+            "secPerOp": "3",
+            "processName": "Extreme Alloy Separation",
+            "ingriedients": [
+                {
+                    "name": "Magno-Gold",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "64",
+            "name": "Gold",
+            "amount": "125",
+            "secPerOp": "3",
+            "processName": "Extreme Alloy Separation",
+            "ingriedients": [
+                {
+                    "name": "Grantine",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "65",
+            "name": "Platinum",
+            "amount": "250",
+            "secPerOp": "3",
+            "processName": "Extreme Alloy Separation",
+            "ingriedients": [
+                {
+                    "name": "Geodesite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "66",
+            "name": "Platinum",
+            "amount": "250",
+            "secPerOp": "3",
+            "processName": "Extreme Alloy Separation",
+            "ingriedients": [
+                {
+                    "name": "Iridesite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "67",
+            "name": "Nanite Clusters",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Alchemical Construction",
+            "ingriedients": [
+                {
+                    "name": "Coprite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Hexite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "68",
+            "name": "Gold",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Alchemical Construction",
+            "ingriedients": [
+                {
+                    "name": "Coprite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Residual Goop",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "69",
+            "name": "Platinum",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Transmutation",
+            "ingriedients": [
+                {
+                    "name": "Silver",
+                    "amount": "1"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "70",
+            "name": "Condensed Carbon",
+            "amount": "2",
+            "secPerOp": "0.1",
+            "processName": "Harness Energy",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "71",
+            "name": "Solanium",
+            "amount": "1",
+            "secPerOp": "0.4",
+            "processName": "Sulphur Injection",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "1"
+                },
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "72",
+            "name": "Uranium",
+            "amount": "1",
+            "secPerOp": "0.4",
+            "processName": "Catalyse Radiation",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "73",
+            "name": "Ammonia",
+            "amount": "1",
+            "secPerOp": "0.4",
+            "processName": "Organic Fusion",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "74",
+            "name": "Salt",
+            "amount": "1",
+            "secPerOp": "0.2",
+            "processName": "Rapid Formation / Evaporation",
+            "ingriedients": [
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "75",
+            "name": "Coprite",
+            "amount": "1",
+            "secPerOp": "0.2",
+            "processName": "Assisted Decomposition",
+            "ingriedients": [
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "76",
+            "name": "Mordite",
+            "amount": "1",
+            "secPerOp": "0.2",
+            "processName": "Organic Reassembly",
+            "ingriedients": [
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "77",
+            "name": "Magnetised Ferrite",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Carbonise Metal",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "78",
+            "name": "Magnetised Ferrite",
+            "amount": "2",
+            "secPerOp": "0.6",
+            "processName": "Carbonise Metal",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "79",
+            "name": "Magnetised Ferrite",
+            "amount": "2",
+            "secPerOp": "0.6",
+            "processName": "Carbonise Metal",
+            "ingriedients": [
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "80",
+            "name": "Magnetised Ferrite",
+            "amount": "3",
+            "secPerOp": "0.6",
+            "processName": "Carbonise Metal",
+            "ingriedients": [
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "81",
+            "name": "Deuterium",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Di-hydrogen Cycling",
+            "ingriedients": [
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "82",
+            "name": "Rusted Metal",
+            "amount": "2",
+            "secPerOp": "1",
+            "processName": "Oxidise Metal",
+            "ingriedients": [
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "83",
+            "name": "Rusted Metal",
+            "amount": "1",
+            "secPerOp": "1",
+            "processName": "Oxidise Metal",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "84",
+            "name": "Condensed Carbon",
+            "amount": "5",
+            "secPerOp": "0.9",
+            "processName": "Oxygenate Carbon",
+            "ingriedients": [
+                {
+                    "name": "Carbon",
+                    "amount": "2"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "85",
+            "name": "Condensed Carbon",
+            "amount": "6",
+            "secPerOp": "0.9",
+            "processName": "Oxygenate Carbon",
+            "ingriedients": [
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "86",
+            "name": "Sodium Nitrate",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Oxygenate Sodium",
+            "ingriedients": [
+                {
+                    "name": "Sodium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "87",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Oxygenate Sodium",
+            "ingriedients": [
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "88",
+            "name": "Sodium Nitrate",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Catalyse Carbon",
+            "ingriedients": [
+                {
+                    "name": "Carbon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "89",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Catalyse Carbon",
+            "ingriedients": [
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "90",
+            "name": "Dioxite",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Advanced Carbon Processing",
+            "ingriedients": [
+                {
+                    "name": "Carbon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "91",
+            "name": "Dioxite",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Advanced Carbon Processing",
+            "ingriedients": [
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "92",
+            "name": "Mordite",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Anomaly / Organic Hybridisation",
+            "ingriedients": [
+                {
+                    "name": "Carbon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "93",
+            "name": "Mordite",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Anomaly / Organic Hybridisation",
+            "ingriedients": [
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "94",
+            "name": "Sodium Nitrate",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Sentinel Catalysation",
+            "ingriedients": [
+                {
+                    "name": "Sodium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "95",
+            "name": "Sodium Nitrate",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Sentinel Catalysation",
+            "ingriedients": [
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "96",
+            "name": "Coprite",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Runaway Decomposition",
+            "ingriedients": [
+                {
+                    "name": "Carbon",
+                    "amount": "2"
+                },
+                {
+                    "name": "Mordite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "97",
+            "name": "Coprite",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Runaway Decomposition",
+            "ingriedients": [
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Mordite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "98",
+            "name": "Marrow Bulb",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Fertilizer Synthesis ",
+            "ingriedients": [
+                {
+                    "name": "Sodium",
+                    "amount": "2"
+                },
+                {
+                    "name": "Mordite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "99",
+            "name": "Marrow Bulb",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Fertilizer Synthesis ",
+            "ingriedients": [
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "1"
+                },
+                {
+                    "name": "Mordite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "100",
+            "name": "Pure Ferrite",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Matter Expansion",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "2"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "101",
+            "name": "Magnetised Ferrite",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Matter Expansion",
+            "ingriedients": [
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "2"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "102",
+            "name": "Magnetised Ferrite",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Matter Expansion",
+            "ingriedients": [
+                {
+                    "name": "Magnetised Ferrite",
+                    "amount": "3"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "103",
+            "name": "Cadmium",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Chromatic Expansion",
+            "ingriedients": [
+                {
+                    "name": "Cadmium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "104",
+            "name": "Indium",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Chromatic Expansion",
+            "ingriedients": [
+                {
+                    "name": "Indium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "105",
+            "name": "Emeril",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Chromatic Expansion",
+            "ingriedients": [
+                {
+                    "name": "Emeril",
+                    "amount": "1"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "106",
+            "name": "Copper",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Chromatic Expansion",
+            "ingriedients": [
+                {
+                    "name": "Copper",
+                    "amount": "1"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "107",
+            "name": "Star Bulb",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Organic Expansion",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Star Bulb",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "108",
+            "name": "Cactus Flesh",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Organic Expansion",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Cactus Flesh",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "109",
+            "name": "Fungal Mould",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Organic Expansion",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "1"
+                },
+                {
+                    "name": "Fungal Mould",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "110",
+            "name": "Gamma Root",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Organic Expansion",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Gamma Root",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "111",
+            "name": "Frost Crystal",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Organic Expansion",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Frost Crystal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "112",
+            "name": "Solanium",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Organic Expansion",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "1"
+                },
+                {
+                    "name": "Solanium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "113",
+            "name": "Chlorine",
+            "amount": "5",
+            "secPerOp": "0.9",
+            "processName": "Efficient Salt Evaporation",
+            "ingriedients": [
+                {
+                    "name": "Salt",
+                    "amount": "2"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "114",
+            "name": "Chlorine",
+            "amount": "6",
+            "secPerOp": "0.9",
+            "processName": "Salt Production",
+            "ingriedients": [
+                {
+                    "name": "Chlorine",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "115",
+            "name": "Ionised Cobalt",
+            "amount": "5",
+            "secPerOp": "0.9",
+            "processName": "Efficient Cobalt Ionisation",
+            "ingriedients": [
+                {
+                    "name": "Cobalt",
+                    "amount": "2"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "116",
+            "name": "Ionised Cobalt",
+            "amount": "6",
+            "secPerOp": "0.9",
+            "processName": "Efficient Cobalt Ionisation",
+            "ingriedients": [
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "117",
+            "name": "Gold",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Organic / Anomaly Synthesis",
+            "ingriedients": [
+                {
+                    "name": "Mordite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "118",
+            "name": "Paraffinium",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Mineral Alchemy",
+            "ingriedients": [
+                {
+                    "name": "Silver",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "119",
+            "name": "Pyrite",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Mineral Alchemy",
+            "ingriedients": [
+                {
+                    "name": "Gold",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "120",
+            "name": "Magnetised Ferrite",
+            "amount": "10",
+            "secPerOp": "0.9",
+            "processName": "Mineral Alchemy",
+            "ingriedients": [
+                {
+                    "name": "Platinum",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "121",
+            "name": "Radon",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Gas Transfer",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "122",
+            "name": "Nitrogen",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Gas Transfer",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "123",
+            "name": "Sulphurine",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Gas Transfer",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "124",
+            "name": "Radon",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Gas Catalysation",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "1"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "125",
+            "name": "Nitrogen",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Gas Catalysation",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "126",
+            "name": "Sulphurine",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Gas Catalysation",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "127",
+            "name": "Sodium Nitrate",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Gas Catalysation",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "128",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Gas Catalysation",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "129",
+            "name": "Ionised Cobalt",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Bonded Cobalt Extraction",
+            "ingriedients": [
+                {
+                    "name": "Marrow Bulb",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "130",
+            "name": "Chlorine",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Bonded Chlorine Extraction",
+            "ingriedients": [
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "131",
+            "name": "Coprite",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Oxygenate Microbes",
+            "ingriedients": [
+                {
+                    "name": "Coprite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "132",
+            "name": "Ionised Cobalt",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Pugneum Washing",
+            "ingriedients": [
+                {
+                    "name": "Marrow Bulb",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "133",
+            "name": "Chlorine",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Pugneum Washing",
+            "ingriedients": [
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "134",
+            "name": "Sodium",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Extract Organic Sodium",
+            "ingriedients": [
+                {
+                    "name": "Marrow Bulb",
+                    "amount": "1"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "135",
+            "name": "Oxygen",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Release Captured Oxygen",
+            "ingriedients": [
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "136",
+            "name": "Condensed Carbon",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Feed Microbes",
+            "ingriedients": [
+                {
+                    "name": "Coprite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "2"
+                }
+            ]
+        },
+        {
+            "id": "137",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Harness Organic Nitrogren",
+            "ingriedients": [
+                {
+                    "name": "Marrow Bulb",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "138",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Harness Organic Nitrogren",
+            "ingriedients": [
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "139",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Feed Microbes",
+            "ingriedients": [
+                {
+                    "name": "Coprite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "140",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Extract Organic Sodium",
+            "ingriedients": [
+                {
+                    "name": "Marrow Bulb",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "141",
+            "name": "Oxygen",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Release Captured Oxygen",
+            "ingriedients": [
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "142",
+            "name": "Condensed Carbon",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Feed Microbes",
+            "ingriedients": [
+                {
+                    "name": "Coprite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "143",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Harness Organic Nitrogren",
+            "ingriedients": [
+                {
+                    "name": "Marrow Bulb",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "144",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Harness Organic Nitrogren",
+            "ingriedients": [
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "145",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Feed Microbes",
+            "ingriedients": [
+                {
+                    "name": "Coprite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "146",
+            "name": "Ionised Cobalt",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Ionise Bulbs",
+            "ingriedients": [
+                {
+                    "name": "Marrow Bulb",
+                    "amount": "1"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "147",
+            "name": "Chlorine",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Dissolve Natural Salts",
+            "ingriedients": [
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "148",
+            "name": "Ionised Cobalt",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Ionise Bulbs",
+            "ingriedients": [
+                {
+                    "name": "Marrow Bulb",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "149",
+            "name": "Chlorine",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Dissolve Natural Salts",
+            "ingriedients": [
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Chlorine",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "150",
+            "name": "Gold",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Pugneum Alchemy",
+            "ingriedients": [
+                {
+                    "name": "Coprite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pugneum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "151",
+            "name": "Condensed Carbon",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Feed Microbes",
+            "ingriedients": [
+                {
+                    "name": "Coprite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Mordite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "152",
+            "name": "Magnetised Ferrite",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Indium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "153",
+            "name": "Magnetised Ferrite",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Cadmium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "154",
+            "name": "Magnetised Ferrite",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Emeril",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "155",
+            "name": "Magnetised Ferrite",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Copper",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "156",
+            "name": "Chromatic Metal",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Chromatic Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Cadmium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "157",
+            "name": "Chromatic Metal",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Chromatic Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Emeril",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "158",
+            "name": "Chromatic Metal",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Chromatic Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Copper",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "159",
+            "name": "Chromatic Metal",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Chromatic Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Indium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "160",
+            "name": "Magnetised Ferrite",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Activated Cadmium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "161",
+            "name": "Magnetised Ferrite",
+            "amount": "8",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Activated Indium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "162",
+            "name": "Magnetised Ferrite",
+            "amount": "6",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Activated Emeril",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "163",
+            "name": "Magnetised Ferrite",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Activated Copper",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "164",
+            "name": "Chromatic Metal",
+            "amount": "4",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Activated Cadmium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "165",
+            "name": "Chromatic Metal",
+            "amount": "8",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Activated Indium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "166",
+            "name": "Chromatic Metal",
+            "amount": "6",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Activated Emeril",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "167",
+            "name": "Chromatic Metal",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Stellar / Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Activated Copper",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "168",
+            "name": "Star Bulb",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "2"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "169",
+            "name": "Cactus Flesh",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "2"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "170",
+            "name": "Fungal Mould",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "2"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "171",
+            "name": "Gamma Root",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "2"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "172",
+            "name": "Frost Crystal",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "2"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "173",
+            "name": "Solanium",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "2"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "174",
+            "name": "Ammonia",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "2"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "175",
+            "name": "Paraffinium",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "2"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "176",
+            "name": "Dioxite",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "2"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "177",
+            "name": "Pyrite",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "2"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "178",
+            "name": "Phosphorus",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "2"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "179",
+            "name": "Uranium",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "2"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "180",
+            "name": "Ammonia",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "2"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "181",
+            "name": "Paraffinium",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "2"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "182",
+            "name": "Dioxite",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "2"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "183",
+            "name": "Pyrite",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "2"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "184",
+            "name": "Phosphorus",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "2"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "185",
+            "name": "Uranium",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Enviromental Element Transfer",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "2"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "186",
+            "name": "Ammonia",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Floral Titration",
+            "ingriedients": [
+                {
+                    "name": "Fungal Mould",
+                    "amount": "2"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "187",
+            "name": "Dioxite",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Floral Titration",
+            "ingriedients": [
+                {
+                    "name": "Frost Crystal",
+                    "amount": "2"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "188",
+            "name": "Uranium",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Floral Titration",
+            "ingriedients": [
+                {
+                    "name": "Gamma Root",
+                    "amount": "2"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "189",
+            "name": "Pyrite",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Floral Titration",
+            "ingriedients": [
+                {
+                    "name": "Cactus Flesh",
+                    "amount": "2"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "190",
+            "name": "Phosphorus",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Floral Titration",
+            "ingriedients": [
+                {
+                    "name": "Solanium",
+                    "amount": "2"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "191",
+            "name": "Paraffinium",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Floral Titration",
+            "ingriedients": [
+                {
+                    "name": "Star Bulb",
+                    "amount": "2"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "192",
+            "name": "Carbon Crystal",
+            "amount": "1",
+            "secPerOp": "120",
+            "processName": "Carbon Crystallisation",
+            "ingriedients": [
+                {
+                    "name": "Carbon",
+                    "amount": "50"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "193",
+            "name": "Destablised Sodium",
+            "amount": "1",
+            "secPerOp": "120",
+            "processName": "Sodium Destabilisation",
+            "ingriedients": [
+                {
+                    "name": "Sodium",
+                    "amount": "50"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "194",
+            "name": "Chloride Lattice",
+            "amount": "1",
+            "secPerOp": "120",
+            "processName": "Chlorine Latticing",
+            "ingriedients": [
+                {
+                    "name": "Salt",
+                    "amount": "50"
+                },
+                {
+                    "name": "Chlorine",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "195",
+            "name": "TetraCobalt",
+            "amount": "1",
+            "secPerOp": "120",
+            "processName": "Cobalt Supercharging",
+            "ingriedients": [
+                {
+                    "name": "Cobalt",
+                    "amount": "50"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "196",
+            "name": "Superoxide Crystal",
+            "amount": "1",
+            "secPerOp": "120",
+            "processName": "Oxygen Nucleation",
+            "ingriedients": [
+                {
+                    "name": "Oxygen",
+                    "amount": "100"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "197",
+            "name": "Rare Metal Element",
+            "amount": "1",
+            "secPerOp": "120",
+            "processName": "Rare Metal Detoxification",
+            "ingriedients": [
+                {
+                    "name": "Magnetised Ferrite",
+                    "amount": "25"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "198",
+            "name": "Paraffinium",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Loosen Bonds",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "199",
+            "name": "Uranium",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Metal Enrichment",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "200",
+            "name": "Sodium Nitrate",
+            "amount": "1",
+            "secPerOp": "1.2",
+            "processName": "Gas Catalysation",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "201",
+            "name": "Paraffinium",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Loosen Bonds",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "202",
+            "name": "Uranium",
+            "amount": "2",
+            "secPerOp": "0.9",
+            "processName": "Metal Enrichment",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "203",
+            "name": "Sodium Nitrate",
+            "amount": "2",
+            "secPerOp": "1.2",
+            "processName": "Gas Catalysation",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "204",
+            "name": "Paraffinium",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Loosen Bonds",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "1"
+                },
+                {
+                    "name": "Magnetised Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "205",
+            "name": "Uranium",
+            "amount": "3",
+            "secPerOp": "0.9",
+            "processName": "Metal Enrichment",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "1"
+                },
+                {
+                    "name": "Magnetised Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "206",
+            "name": "Sodium Nitrate",
+            "amount": "3",
+            "secPerOp": "1.2",
+            "processName": "Gas Catalysation",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Magnetised Ferrite",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "207",
+            "name": "Fungal Mould",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "1"
+                },
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "208",
+            "name": "Frost Crystal",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Radon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "209",
+            "name": "Gamma Root",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Radon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "210",
+            "name": "Cactus Flesh",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sulphurine",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "211",
+            "name": "Solanium",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "1"
+                },
+                {
+                    "name": "Sulphurine",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "212",
+            "name": "Star Bulb",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "213",
+            "name": "Marrow Bulb",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Cobalt",
+                    "amount": "1"
+                },
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "214",
+            "name": "Kelp Sac",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Salt",
+                    "amount": "1"
+                },
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "215",
+            "name": "Coprite",
+            "amount": "1",
+            "secPerOp": "0.6",
+            "processName": "Encourage Growth",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "1"
+                },
+                {
+                    "name": "Nitrogen",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "216",
+            "name": "Rare Metal Element",
+            "amount": "1",
+            "secPerOp": "120",
+            "processName": "Rare Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "35"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "35"
+                },
+                {
+                    "name": "Magnetised Ferrite",
+                    "amount": "35"
+                }
+            ]
+        },
+        {
+            "id": "217",
+            "name": "Nanite Clusters",
+            "amount": "1",
+            "secPerOp": "0.9",
+            "processName": "Transmutation",
+            "ingriedients": [
+                {
+                    "name": "Silver",
+                    "amount": "250"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "250"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "250"
+                }
+            ]
+        },
+        {
+            "id": "218",
+            "name": "Magnetised Ferrite",
+            "amount": "5",
+            "secPerOp": "1.2",
+            "processName": "Deep Metal Compression",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "219",
+            "name": "Magnetised Ferrite",
+            "amount": "8",
+            "secPerOp": "1.2",
+            "processName": "Deep Metal Compression",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "220",
+            "name": "Magnetised Ferrite",
+            "amount": "12",
+            "secPerOp": "1.2",
+            "processName": "Deep Metal Compression",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "1"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "221",
+            "name": "Carbon Crystal",
+            "amount": "1",
+            "secPerOp": "200",
+            "processName": "Carbon Crystallisation",
+            "ingriedients": [
+                {
+                    "name": "Carbon",
+                    "amount": "40"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "40"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "222",
+            "name": "Rare Metal Element",
+            "amount": "1",
+            "secPerOp": "200",
+            "processName": "Rare Metal Fusion",
+            "ingriedients": [
+                {
+                    "name": "Oxygen",
+                    "amount": "20"
+                },
+                {
+                    "name": "Magnetised Ferrite",
+                    "amount": "20"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "25"
+                }
+            ]
+        },
+        {
+            "id": "223",
+            "name": "TetraCobalt",
+            "amount": "1",
+            "secPerOp": "200",
+            "processName": "Cobalt Supercharging",
+            "ingriedients": [
+                {
+                    "name": "Cobalt",
+                    "amount": "40"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "40"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "224",
+            "name": "Chloride Lattice",
+            "amount": "1",
+            "secPerOp": "200",
+            "processName": "Chlorine Latticing",
+            "ingriedients": [
+                {
+                    "name": "Salt",
+                    "amount": "40"
+                },
+                {
+                    "name": "Chlorine",
+                    "amount": "40"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "225",
+            "name": "Destablised Sodium",
+            "amount": "1",
+            "secPerOp": "200",
+            "processName": "Sodium Destabilisation",
+            "ingriedients": [
+                {
+                    "name": "Sodium",
+                    "amount": "40"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "40"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "226",
+            "name": "Superoxide Crystal",
+            "amount": "1",
+            "secPerOp": "200",
+            "processName": "Oxygen Nucleation",
+            "ingriedients": [
+                {
+                    "name": "Oxygen",
+                    "amount": "40"
+                },
+                {
+                    "name": "Uranium",
+                    "amount": "40"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "50"
+                }
+            ]
+        },
+        {
+            "id": "227",
+            "name": "Oxygen",
+            "amount": "10",
+            "secPerOp": "9",
+            "processName": "Artificial Photosynthesis",
+            "ingriedients": [
+                {
+                    "name": "Fungal Mould",
+                    "amount": "1"
+                },
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "228",
+            "name": "Oxygen",
+            "amount": "10",
+            "secPerOp": "9",
+            "processName": "Artificial Photosynthesis",
+            "ingriedients": [
+                {
+                    "name": "Frost Crystal",
+                    "amount": "1"
+                },
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "229",
+            "name": "Oxygen",
+            "amount": "10",
+            "secPerOp": "9",
+            "processName": "Artificial Photosynthesis",
+            "ingriedients": [
+                {
+                    "name": "Cactus Flesh",
+                    "amount": "1"
+                },
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "230",
+            "name": "Oxygen",
+            "amount": "10",
+            "secPerOp": "9",
+            "processName": "Artificial Photosynthesis",
+            "ingriedients": [
+                {
+                    "name": "Solanium",
+                    "amount": "1"
+                },
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "231",
+            "name": "Oxygen",
+            "amount": "10",
+            "secPerOp": "9",
+            "processName": "Artificial Photosynthesis",
+            "ingriedients": [
+                {
+                    "name": "Gamma Root",
+                    "amount": "1"
+                },
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "232",
+            "name": "Oxygen",
+            "amount": "10",
+            "secPerOp": "9",
+            "processName": "Artificial Photosynthesis",
+            "ingriedients": [
+                {
+                    "name": "Star Bulb",
+                    "amount": "1"
+                },
+                {
+                    "name": "Kelp Sac",
+                    "amount": "1"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "233",
+            "name": "Chromatic Metal",
+            "amount": "5",
+            "secPerOp": "12",
+            "processName": "Chromatic Stellar Fusion",
+            "ingriedients": [
+                {
+                    "name": "Silver",
+                    "amount": "1"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "1"
+                },
+                {
+                    "name": "Copper",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "234",
+            "name": "Chromatic Metal",
+            "amount": "10",
+            "secPerOp": "12",
+            "processName": "Chromatic Stellar Fusion",
+            "ingriedients": [
+                {
+                    "name": "Silver",
+                    "amount": "1"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "1"
+                },
+                {
+                    "name": "Cadmium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "235",
+            "name": "Chromatic Metal",
+            "amount": "20",
+            "secPerOp": "12",
+            "processName": "Chromatic Stellar Fusion",
+            "ingriedients": [
+                {
+                    "name": "Silver",
+                    "amount": "1"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "1"
+                },
+                {
+                    "name": "Emeril",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "236",
+            "name": "Chromatic Metal",
+            "amount": "30",
+            "secPerOp": "12",
+            "processName": "Chromatic Stellar Fusion",
+            "ingriedients": [
+                {
+                    "name": "Silver",
+                    "amount": "1"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "1"
+                },
+                {
+                    "name": "Indium",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "237",
+            "name": "Gold",
+            "amount": "10",
+            "secPerOp": "12",
+            "processName": "Chromatic Alchemy",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Emeril",
+                    "amount": "1"
+                }
+            ]
+        },
+        {
+            "id": "238",
+            "name": "Platinum",
+            "amount": "10",
+            "secPerOp": "12",
+            "processName": "Chromatic Alchemy",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "1"
+                },
+                {
+                    "name": "Oxygen",
+                    "amount": "1"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "250"
+                }
+            ]
+        },
+        {
+            "id": "239",
+            "name": "Warp Cell",
+            "amount": "1",
+            "secPerOp": "600",
+            "processName": "Antimatter Bypass",
+            "ingriedients": [
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "25"
+                },
+                {
+                    "name": "Sodium",
+                    "amount": "10"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "250"
+                }
+            ]
+        },
+        {
+            "id": "240",
+            "name": "Warp Cell",
+            "amount": "1",
+            "secPerOp": "600",
+            "processName": "Antimatter Bypass",
+            "ingriedients": [
+                {
+                    "name": "Carbon",
+                    "amount": "50"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "5"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "250"
+                }
+            ]
+        },
+        {
+            "id": "241",
+            "name": "Warp Cell",
+            "amount": "1",
+            "secPerOp": "600",
+            "processName": "Antimatter Bypass",
+            "ingriedients": [
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "25"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "5"
+                },
+                {
+                    "name": "Chromatic Metal",
+                    "amount": "250"
+                }
+            ]
+        },
+        {
+            "id": "242",
+            "name": "Unstable Plasma",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Plasma Pressurisation",
+            "ingriedients": [
+                {
+                    "name": "Oxygen",
+                    "amount": "10"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "20"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "243",
+            "name": "Unstable Plasma",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Plasma Pressurisation",
+            "ingriedients": [
+                {
+                    "name": "Oxygen",
+                    "amount": "10"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "20"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "244",
+            "name": "Unstable Plasma",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Plasma Pressurisation",
+            "ingriedients": [
+                {
+                    "name": "Oxygen",
+                    "amount": "10"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "20"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "245",
+            "name": "Unstable Plasma",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Plasma Pressurisation",
+            "ingriedients": [
+                {
+                    "name": "Oxygen",
+                    "amount": "10"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "20"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "246",
+            "name": "Life Support Gel",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Advanced Oxygen Capture",
+            "ingriedients": [
+                {
+                    "name": "Oxygen",
+                    "amount": "10"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "10"
+                },
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "247",
+            "name": "Starship Launch Fuel",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Di-hydrogen Capture",
+            "ingriedients": [
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "10"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "20"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "248",
+            "name": "Starship Launch Fuel",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Di-hydrogen Capture",
+            "ingriedients": [
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "10"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "20"
+                },
+                {
+                    "name": "Sodium",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "249",
+            "name": "Starship Launch Fuel",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Di-hydrogen Capture",
+            "ingriedients": [
+                {
+                    "name": "Di-hydrogen",
+                    "amount": "10"
+                },
+                {
+                    "name": "Magnetised Ferrite",
+                    "amount": "10"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "250",
+            "name": "Ion Battery",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Ion Capture",
+            "ingriedients": [
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "10"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "10"
+                },
+                {
+                    "name": "Sodium",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "251",
+            "name": "Advanced Ion Battery",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Advanced Ion Capture",
+            "ingriedients": [
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "10"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "10"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "252",
+            "name": "Aronium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "253",
+            "name": "Aronium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "254",
+            "name": "Aronium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "255",
+            "name": "Aronium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "256",
+            "name": "Aronium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "257",
+            "name": "Aronium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "258",
+            "name": "Aronium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "259",
+            "name": "Aronium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Paraffinium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "260",
+            "name": "Dirty Bronze",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "120"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "261",
+            "name": "Dirty Bronze",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "60"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "262",
+            "name": "Dirty Bronze",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "120"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "263",
+            "name": "Dirty Bronze",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "60"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "264",
+            "name": "Dirty Bronze",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "120"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "265",
+            "name": "Dirty Bronze",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "60"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "266",
+            "name": "Dirty Bronze",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "120"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "267",
+            "name": "Dirty Bronze",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Pyrite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "60"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "268",
+            "name": "Herox",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "269",
+            "name": "Herox",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "270",
+            "name": "Herox",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "271",
+            "name": "Herox",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "272",
+            "name": "Herox",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "273",
+            "name": "Herox",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "274",
+            "name": "Herox",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "275",
+            "name": "Herox",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Ammonia",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "276",
+            "name": "Lemmium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "120"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "277",
+            "name": "Lemmium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "60"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "278",
+            "name": "Lemmium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "120"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "279",
+            "name": "Lemmium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "60"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "280",
+            "name": "Lemmium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "120"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "281",
+            "name": "Lemmium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "60"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "282",
+            "name": "Lemmium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ferrite Dust",
+                    "amount": "120"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "283",
+            "name": "Lemmium",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Uranium",
+                    "amount": "30"
+                },
+                {
+                    "name": "Pure Ferrite",
+                    "amount": "60"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "284",
+            "name": "Magno-Gold",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "285",
+            "name": "Magno-Gold",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "286",
+            "name": "Magno-Gold",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "287",
+            "name": "Magno-Gold",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "288",
+            "name": "Magno-Gold",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "289",
+            "name": "Magno-Gold",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "290",
+            "name": "Magno-Gold",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "291",
+            "name": "Magno-Gold",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Phosphorus",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "292",
+            "name": "Grantine",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "293",
+            "name": "Grantine",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Tritium",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "294",
+            "name": "Grantine",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "295",
+            "name": "Grantine",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Silver",
+                    "amount": "20"
+                }
+            ]
+        },
+        {
+            "id": "296",
+            "name": "Grantine",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "297",
+            "name": "Grantine",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Gold",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "298",
+            "name": "Grantine",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "60"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "299",
+            "name": "Grantine",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "Alloy Latticing",
+            "ingriedients": [
+                {
+                    "name": "Dioxite",
+                    "amount": "30"
+                },
+                {
+                    "name": "Ionised Cobalt",
+                    "amount": "30"
+                },
+                {
+                    "name": "Platinum",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "300",
+            "name": "Thermic Condensate",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "100"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "20"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "301",
+            "name": "Enriched Carbon",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "100"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "20"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "302",
+            "name": "Nitrogen Salt",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "100"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "20"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "303",
+            "name": "Thermic Condensate",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "100"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "10"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "304",
+            "name": "Enriched Carbon",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "100"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "10"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "305",
+            "name": "Nitrogen Salt",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "100"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "10"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "10"
+                }
+            ]
+        },
+        {
+            "id": "306",
+            "name": "Thermic Condensate",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "100"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "20"
+                },
+                {
+                    "name": "Chlorine",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "307",
+            "name": "Enriched Carbon",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "100"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "20"
+                },
+                {
+                    "name": "Chlorine",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "308",
+            "name": "Nitrogen Salt",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "100"
+                },
+                {
+                    "name": "Carbon",
+                    "amount": "20"
+                },
+                {
+                    "name": "Chlorine",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "309",
+            "name": "Thermic Condensate",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Sulphurine",
+                    "amount": "100"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "10"
+                },
+                {
+                    "name": "Chlorine",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "310",
+            "name": "Enriched Carbon",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Radon",
+                    "amount": "100"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "10"
+                },
+                {
+                    "name": "Chlorine",
+                    "amount": "5"
+                }
+            ]
+        },
+        {
+            "id": "311",
+            "name": "Nitrogen Salt",
+            "amount": "1",
+            "secPerOp": "90",
+            "processName": "High-Speed Sublimation",
+            "ingriedients": [
+                {
+                    "name": "Nitrogen",
+                    "amount": "100"
+                },
+                {
+                    "name": "Condensed Carbon",
+                    "amount": "10"
+                },
+                {
+                    "name": "Chlorine",
+                    "amount": "5"
+                }
+            ]
+        }
+    ]
+}

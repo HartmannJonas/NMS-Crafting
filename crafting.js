@@ -112,7 +112,7 @@ function showItem(name, back) {
         $('#mainCard').fadeIn();
 
         ingLen = item.ingredients.length;
-        
+
         $('.table-active').remove();
         var tableContent = "";
         if (ingLen > 0) {
@@ -144,69 +144,69 @@ function showItem(name, back) {
 
         var sList = new Array();
         getShoppingList(name, 1, sList, function () {
-            if(sList.length > 0){
+            if (sList.length > 0) {
                 var i;
-            var total = 0;
-            for (i = 0; i < sList.length; i++) {
-                $newShoppingRow = $('#templateShoppingRow').clone();
-                $newShoppingRow.find('.shopName').text(sList[i].name);
-                $newShoppingRow.find('.shopPrice').text(getItemByName(sList[i].name).price + " Units");
-                $newShoppingRow.find('.shopCount').text("x" + sList[i].quantity);
-                $newShoppingRow.find('.shopCount').attr('data-count', sList[i].quantity);
-                $newShoppingRow.attr('data-href', sList[i].name);
-                $newShoppingRow.removeAttr("id");
-                $newShoppingRow.attr("class", "table-active itemLink");
-
-                var path = "resources/Images/" + sList[i].name.replace(/\s/g, '') + ".png";
-                $newShoppingRow.find(".img-fluid").attr("src", path);
-
-                var itemTotal = getItemByName(sList[i].name).price * sList[i].quantity;
-                total += itemTotal;
-                $newShoppingRow.find('.shopItemTotal').text(itemTotal.toLocaleString() + " Units");
-                $newShoppingRow.find('.shopItemTotal').attr('data-itemTotal', itemTotal);
-
-                $('#shoppingTable').append($newShoppingRow);
-            }
-            var totalLabel = document.getElementById("shopTotal");
-            totalLabel.innerHTML = "Total: " + total.toLocaleString() + " Units";
-            inputAmount = document.getElementById("inputAmount");
-            inputAmount.value = 1;
-            inputAmount.addEventListener("change", function () {
-                $('.shopCount').each(function (i, obj) {
-                    var count;
-                    count = obj.getAttribute('data-count');
-                    count *= inputAmount.value;
-                    obj.textContent = "x" + count;
-                });
                 var total = 0;
-                $('.shopItemTotal').each(function (i, obj) {
-                    var itemTotal;
-                    itemTotal = obj.getAttribute('data-itemTotal');
-                    itemTotal *= inputAmount.value;
+                for (i = 0; i < sList.length; i++) {
+                    $newShoppingRow = $('#templateShoppingRow').clone();
+                    $newShoppingRow.find('.shopName').text(sList[i].name);
+                    $newShoppingRow.find('.shopPrice').text(getItemByName(sList[i].name).price + " Units");
+                    $newShoppingRow.find('.shopCount').text("x" + sList[i].quantity);
+                    $newShoppingRow.find('.shopCount').attr('data-count', sList[i].quantity);
+                    $newShoppingRow.attr('data-href', sList[i].name);
+                    $newShoppingRow.removeAttr("id");
+                    $newShoppingRow.attr("class", "table-active itemLink");
+
+                    var path = "resources/Images/" + sList[i].name.replace(/\s/g, '') + ".png";
+                    $newShoppingRow.find(".img-fluid").attr("src", path);
+
+                    var itemTotal = getItemByName(sList[i].name).price * sList[i].quantity;
                     total += itemTotal;
-                    obj.textContent = itemTotal.toLocaleString() + " Units";
-                })
+                    $newShoppingRow.find('.shopItemTotal').text(itemTotal.toLocaleString() + " Units");
+                    $newShoppingRow.find('.shopItemTotal').attr('data-itemTotal', itemTotal);
+
+                    $('#shoppingTable').append($newShoppingRow);
+                }
                 var totalLabel = document.getElementById("shopTotal");
                 totalLabel.innerHTML = "Total: " + total.toLocaleString() + " Units";
-            });
-
-            $('#shoppingListCard').fadeIn(400, function () {
-                $(".itemLink").click(function () {
-                    var name = $(this).data("href");
-                    showItem(name);
+                inputAmount = document.getElementById("inputAmount");
+                inputAmount.value = 1;
+                inputAmount.addEventListener("change", function () {
+                    $('.shopCount').each(function (i, obj) {
+                        var count;
+                        count = obj.getAttribute('data-count');
+                        count *= inputAmount.value;
+                        obj.textContent = "x" + count;
+                    });
+                    var total = 0;
+                    $('.shopItemTotal').each(function (i, obj) {
+                        var itemTotal;
+                        itemTotal = obj.getAttribute('data-itemTotal');
+                        itemTotal *= inputAmount.value;
+                        total += itemTotal;
+                        obj.textContent = itemTotal.toLocaleString() + " Units";
+                    })
+                    var totalLabel = document.getElementById("shopTotal");
+                    totalLabel.innerHTML = "Total: " + total.toLocaleString() + " Units";
                 });
-            });
+
+                $('#shoppingListCard').fadeIn(400, function () {
+                    $(".itemLink").click(function () {
+                        var name = $(this).data("href");
+                        showItem(name);
+                    });
+                });
             }
-            
+
         });
 
 
 
         var craftToList = new Array();
         craftToList = getCraftToList(name, craftToList, function () {
-            
+
             var i;
-            for(i = 0; i<craftToList.length; i++){
+            for (i = 0; i < craftToList.length; i++) {
                 $newCraftToRow = $('#templateCraftingToRow').clone();
                 $newCraftToRow.attr('data-href', craftToList[i]);
                 $newCraftToRow.removeAttr('id');
@@ -232,7 +232,7 @@ function showItem(name, back) {
 
     });
 
-    
+
 
 
 }
@@ -266,7 +266,7 @@ function getShoppingList(itemName, itemQuantity, shoppingList, callback) {
             var currentIngredient = item.ingredients[i];
             getShoppingList(currentIngredient.name, itemQuantity * currentIngredient.count, shoppingList);
         }
-    } else if(recursionCount > 1){
+    } else if (recursionCount > 1) {
         addToShoppingList(new ingPair(itemName, itemQuantity), shoppingList);
         // shoppingList.push(new ingPair(itemName, itemQuantity));
     }

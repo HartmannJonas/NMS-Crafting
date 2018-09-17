@@ -144,7 +144,8 @@ function showItem(name, back) {
 
         var sList = new Array();
         getShoppingList(name, 1, sList, function () {
-            var i;
+            if(sList.length > 0){
+                var i;
             var total = 0;
             for (i = 0; i < sList.length; i++) {
                 $newShoppingRow = $('#templateShoppingRow').clone();
@@ -195,6 +196,8 @@ function showItem(name, back) {
                     showItem(name);
                 });
             });
+            }
+            
         });
 
 
@@ -263,7 +266,7 @@ function getShoppingList(itemName, itemQuantity, shoppingList, callback) {
             var currentIngredient = item.ingredients[i];
             getShoppingList(currentIngredient.name, itemQuantity * currentIngredient.count, shoppingList);
         }
-    } else {
+    } else if(recursionCount > 1){
         addToShoppingList(new ingPair(itemName, itemQuantity), shoppingList);
         // shoppingList.push(new ingPair(itemName, itemQuantity));
     }
